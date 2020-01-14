@@ -15,7 +15,7 @@ host1 = input ("		IP O LINK A RECONOCER : ")	#Recibir la Dirección IP o el link
 #Función para hacer ping
 def pingFull (host1):
 	#Realiza solo 2 solicitudes de PING
-	receptivo = subprocess.call(["ping", "-n", "2", host1])
+	receptivo = subprocess.call(["ping", "-c", "2", host1])
 
 	#Imprime que el host responde solicitudes PING
 	if receptivo == 0:

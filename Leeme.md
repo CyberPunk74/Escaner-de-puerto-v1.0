@@ -7,7 +7,7 @@ PERMISOS DE EJECUCIÓN
 
 MODO DE EJECUCIÓN
 
-    #python Cyber_Punk_Scan.py
+    #python3 Cyber_Punk_Scan.py
 
 PRUEBA DE CONCEPTO
     
