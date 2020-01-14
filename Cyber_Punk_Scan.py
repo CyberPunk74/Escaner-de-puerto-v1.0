@@ -1,4 +1,4 @@
-import subprocess	#Importa los subprocess para la comunicación PING.
+import subprocess	#Importa los subprocess para la comunicación ICMP.
 import socket		#Importa el socket para el Escaneo de puertos
 
 print("	By:																				 ")
